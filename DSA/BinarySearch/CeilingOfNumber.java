@@ -1,3 +1,5 @@
+package DSA.BinarySearch;
+
 public class CeilingOfNumber{
    public static void main(String a[]){
     int[] arr = {1,3,4,6,8};
@@ -5,7 +7,7 @@ public class CeilingOfNumber{
     int ceil = Ceil(arr,target);
     int floor = Floor(arr,target);
     System.out.print(
-      "Ceil : " + arr[ceil] + "\n" + "Floor : " + arr[floor] 
+      "Ceil : " + arr[ceil] + "\n" + "Floor : " + arr[floor]
     );
    }
 

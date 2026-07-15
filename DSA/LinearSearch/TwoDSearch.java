@@ -1,4 +1,3 @@
-
 public class TwoDSearch{
   public static void main (String[] a){
     int[][] arr = {
@@ -15,7 +14,7 @@ static boolean Search ( int arr[][] ,int target )
   for(int[] nums : arr ){
     for(int num : nums){
       if(num == target){
-        return true;     
+        return true;
       }
     }
   }

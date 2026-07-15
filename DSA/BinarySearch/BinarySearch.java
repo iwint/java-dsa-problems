@@ -1,8 +1,5 @@
-
+package DSA.BinarySearch;
 public class BinarySearch{
-  
-  
-
   public static void main(String a[]){
 
     int[] arr = {8,9,7,5,4,2,1};
@@ -28,7 +25,7 @@ public class BinarySearch{
       }
 
       return -1;
-    
+
   }
 
 
