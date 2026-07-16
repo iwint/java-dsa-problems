@@ -38,13 +38,14 @@ print("Find First Occurrence")
 print(find_first_occurrence(h, n))
 
 """
-total_len = 6
-nums[1] = 1
-nums[j] = 2
+1.Loop the sorted second array externally
+2.Loop the sorted first array internally
+3. Compare num2[i] >= num1[j]
+4. if true swap num1[j] = num2[i]
 """
-nums1 = [1, 2, 3]
+nums1 = [1, 2, 3, 0, 0, 0]
 nums2 = [2, 5, 6]
-m = len(nums1)
+m = 3
 n = len(nums2)
 
 print("Merge Arrays:")

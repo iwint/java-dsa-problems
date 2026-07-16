@@ -1,5 +1,5 @@
 def remove_element(nums: list[int], target: int) -> int:
-    if len(nums) == 0: return 0
+    if len(nums) == 0 : return 0
     slow = 0
 
     for fast in range(0, len(nums)):
