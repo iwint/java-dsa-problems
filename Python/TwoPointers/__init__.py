@@ -1,6 +1,7 @@
 from Python.TwoPointers.first_occurance import find_first_occurrence
 from Python.TwoPointers.merge_arrays import merge_arrays
 from Python.TwoPointers.remove_element import remove_element
+from Python.valid_palindrome import is_valid_palindrome
 from remove_duplicates import RemoveDuplicates
 
 """
@@ -24,7 +25,7 @@ nums[f] != t => nums[s] = nums[f], s++
 """
 nums = [0, 1, 2, 2, 3, 0, 4, 2]
 target = 2
-print("Remove Element:")
+# print("Remove Element:")
 # print(remove_element(nums, target))
 
 n = "sad"
@@ -34,8 +35,8 @@ Get n's length => 3
 l = 0
 r = n.len -1 (2)
 """
-print("Find First Occurrence")
-print(find_first_occurrence(h, n))
+# print("Find First Occurrence")
+# print(find_first_occurrence(h, n))
 
 """
 1.Loop the sorted second array externally
@@ -48,5 +49,9 @@ nums2 = [2, 5, 6]
 m = 3
 n = len(nums2)
 
-print("Merge Arrays:")
-print(merge_arrays(nums1, m, nums2, n))
+# print("Merge Arrays:")
+# print(merge_arrays(nums1, m, nums2, n))
+
+val = "2BaB2"
+print(is_valid_palindrome(val))
+
